@@ -1,5 +1,6 @@
 <script setup>
 import RoadMapItem from '@/components/roadmap/RoadMapItem.vue'
+import RoadmapHeader from '@/components/roadmap/RoadmapHeader.vue'
 
 defineProps({
   url: {
@@ -11,43 +12,16 @@ defineProps({
 
 <template>
   <div class="roadmap">
-    <div class="text-start roadmap-header">
-      <p class="roadmap-title d-inline-block">Roadmap</p>
-
-      <a :href="url" class="roadmap-view">View</a>
-    </div>
+    <roadmap-header></roadmap-header>
     <div class="roadmap-items-container">
       <road-map-item value="2" text="Planned" dot="#F49F85"></road-map-item>
+      <road-map-item value="3" text="In-Progress" dot="#AD1FEA"></road-map-item>
+      <road-map-item value="1" text="Live" dot="#62BCFA"></road-map-item>
     </div>
   </div>
 </template>
 
 <style scoped>
-.roadmap-title {
-  color: #3a4374;
-  width: 4.8rem;
-  font-family: Jost, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.25px;
-}
-
-.roadmap-view {
-  color: #8397f8;
-  margin-left: 4.19rem;
-  font-family: Jost, serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-decoration-line: none;
-}
-.roadmap-view:hover {
-  text-decoration-line: underline;
-}
-
 .roadmap {
   padding: 1.5rem;
   width: 13.9375rem;
