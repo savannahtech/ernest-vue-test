@@ -1,4 +1,6 @@
 <script setup>
+import OvalDot from '@/components/OvalDot.vue'
+
 defineProps({
   dot: {
     type: String,
@@ -15,6 +17,12 @@ defineProps({
 })
 </script>
 
-<template></template>
+<template>
+  <div>
+    <oval-dot :fill="dot"></oval-dot>
+    <div>{{ text }}</div>
+    <span>{{ value }}</span>
+  </div>
+</template>
 
 <style scoped></style>

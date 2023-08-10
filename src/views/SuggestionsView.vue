@@ -16,6 +16,6 @@
   </main>
 </template>
 <script setup>
-import Roadmap from '@/components/Roadmap.vue'
+import Roadmap from '@/components/roadmap/Roadmap.vue'
 import OvalDot from '@/components/OvalDot.vue'
 </script>
