@@ -7,7 +7,10 @@
             Column
           </div>
           <div class="col col-lg-8 border border-secondary">
-            Column
+           <div>
+             <oval-dot fill="#AAA"></oval-dot>
+             <roadmap></roadmap>
+           </div>
           </div>
         </div>
       </div>
@@ -15,5 +18,6 @@
   </main>
 </template>
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Roadmap from "@/components/Roadmap.vue";
+import OvalDot from "@/components/OvalDot.vue";
 </script>
