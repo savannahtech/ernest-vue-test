@@ -3,21 +3,18 @@ defineProps({
   dot: {
     type: String,
     required: true
-  },text: {
+  },
+  text: {
     type: String,
     required: true
-  },value: {
+  },
+  value: {
     type: Number,
     required: true
-  },
-
+  }
 })
 </script>
 
-<template>
+<template></template>
 
-</template>
-
-<style scoped>
-
-</style>
+<style scoped></style>

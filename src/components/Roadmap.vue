@@ -1,11 +1,7 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-<div class="roadmap">
-
-</div>
+  <div class="roadmap"></div>
 </template>
 
 <style scoped>
@@ -14,7 +10,7 @@
   height: 178px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #FFF;
+  background: #fff;
 }
 
 @media only screen and (min-width: 600px) {
@@ -24,8 +20,7 @@
     height: 178px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #FFF;
-
+    background: #fff;
   }
 }
 
@@ -36,9 +31,7 @@
     height: 178px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #FFF;
-
+    background: #fff;
   }
 }
-
 </style>

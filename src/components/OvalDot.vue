@@ -9,16 +9,15 @@ defineProps({
 
 <template>
   <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
-    <circle cx="4" cy="4" r="4" :fill="fill"/>
+    <circle cx="4" cy="4" r="4" :fill="fill" />
   </svg>
 </template>
 
 <style scoped>
-
 .oval-dot {
   width: 8px;
   height: 8px;
   flex-shrink: 0;
-  fill: #F49F85;
+  fill: #f49f85;
 }
 </style>

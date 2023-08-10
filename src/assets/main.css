@@ -1,9 +1,9 @@
 @import './base.css';
 
 #app {
-  background: #F7F8FD;
+  background: #f7f8fd;
 }
 
 .user-title {
-  background-image: url( '/path/image.svg' );
+  background-image: url('/path/image.svg');
 }
