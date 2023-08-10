@@ -18,11 +18,18 @@ defineProps({
 </script>
 
 <template>
-  <div>
+  <div class="roadmap-item-container">
     <oval-dot :fill="dot"></oval-dot>
-    <div>{{ text }}</div>
-    <span>{{ value }}</span>
+    <span>{{ text }}</span>
+    <span class="float-end">{{ value }}</span>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.roadmap-item-container {
+  display: block;
+  width: 207px;
+  height: 23px;
+  flex-shrink: 0;
+}
+</style>
